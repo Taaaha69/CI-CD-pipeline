@@ -13,5 +13,7 @@ func NewRouter() http.Handler {
 		w.Write([]byte("OK"))
 	})
 
+	r.Post("/webhooks/github", handlers.GitHubWebhook)
+
 	return r
 }
