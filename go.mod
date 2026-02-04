@@ -1,4 +1,4 @@
-module github.com/Taaaha69/CI-CD-pipeline.git
+module github.com/Taaaha69/CI-CD-pipeline
 
 go 1.25.6
 
